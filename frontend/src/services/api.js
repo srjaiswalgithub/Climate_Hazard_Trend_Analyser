@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE =  'http://localhost:5500/api';
+const API_BASE =  'https://climate-hazard-trend-analyser-3.onrender.com/api';
 
 export const fetchClimateData = async (region, dateRange) => {
   try {
